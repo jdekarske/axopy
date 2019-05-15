@@ -20,7 +20,7 @@ A virtual environment is a good way to set up a development environment::
 Once in the virtual environment, you can install AxoPy in "development mode"
 along with the development dependencies::
 
-    (.venv-dev) $ pip intall -e .[dev]
+    (.venv-dev) $ pip install -e .[dev]
 
 If you take a look at the ``setup.py`` file, you'll see that this installs
 everything from the ``requirements.txt`` file as well as the
